@@ -35,7 +35,7 @@ android {
         jvmTarget = "11"
     }
     buildFeatures {
-        compose = true
+//        compose = true
         viewBinding = true
     }
 }
@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
+    implementation(libs.material)
 
     implementation(libs.androidx.camera.core)
     implementation(libs.androidx.camera.camera2)
